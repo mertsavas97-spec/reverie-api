@@ -1,0 +1,20 @@
+{
+  "name": "reverie-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@vercel/node": "latest",
+    "typescript": "latest",
+    "vercel": "latest"
+  }
+}
